@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technologies</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif;">
+    <div class="sidebar" style="height: 100%; width: 200px; position: fixed; top: 0; left: 0; background-color: #1b1649; padding-top: 20px;">
+        <a href="index.html" style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #ccc; display: block;">Home page: Intro to The Internet</a>
+        <a href="page2.html" style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #ccc; display: block;">Web Technologies</a>
+        <a href="page3.html" style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #ccc; display: block;">Cyber Security</a>
+        <a href="page4.html" style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #ccc; display: block;">E-commerce</a>
+        <a href="page5.html" style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #ccc; display: block;">Contact Me</a>
+        <a href="page6.html" style="padding: 10px 20px; text-decoration: none; font-size: 18px; color: #ccc; display: block;">Citations</a>
+    </div>
+    <div class="content" style="margin-left: 220px; padding: 20px;">
+        <h1>Web Technologies - Understanding Protocols and Standards</h1>
+        <hr>
+        <h2>Various Web Technologies</h2>
+        <table>
+            <tr>
+              <th>Web Technology</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>Hypertext Markup Language used for creating the structure of web pages.</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Cascading Style Sheets used for controlling the style and layout of HTML documents.</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Versatile programming language used for adding interactivity and dynamic behavior to web pages.</td>
+            </tr>
+          </table>
+
+          <br>
+          <hr>
+          <h1>Code Snippets</h1>
+          <h2>HTML Example</h2>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Example Page&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Welcome to Example Page&lt;/h1&gt;
+                &lt;p&gt;This is a sample HTML page.&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
+
+        <h2>HTTPS Example</h2>
+        <pre>
+            CONNECT www.example.com:443 HTTP/1.1
+            Host: www.example.com
+            Proxy-Connection: keep-alive
+            Connection: keep-alive
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+        </pre>
+
+        <h2>FTP Example</h2>
+        <pre>
+            USER anonymous
+            331 Guest login ok, send your complete email address as password.
+            PASS anonymous@example.com
+            230 Logged in successfully.
+            SYST
+            215 UNIX Type: L8
+            PWD
+            257 "/" is the current directory
+            LIST
+            150 Here comes the directory listing.
+            ...
+        </pre>
+        <hr>
+        <h2>Further Reading</h2>
+        <p>HTML, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs - HTML</a>.</p>
+        <p>HTTPS, <a href="https://en.wikipedia.org/wiki/HTTPS">Wikipedia - HTTPS</a>.</p>
+        <p>FTP, <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">Wikipedia - FTP</a>.</p>
+    </div>
+</body>
+</html>
